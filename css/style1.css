@@ -1,0 +1,242 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+    min-height: 1080px;
+    background-color: rgb(253, 251, 223);
+  }
+  .headerleft{
+    width: 85%;
+    float: left;
+    height: 30px;
+    background-color: rgb(253, 61, 61);
+  }
+  .headerleft>a{
+    text-decoration: none;
+    color: cornsilk;
+    
+  }
+  .headerright{
+    width: 15%;
+    float: left;
+    height: 30px;
+    background-color: rgb(253, 61, 61);
+  }
+  .headerright>a{
+    color: cornsilk;
+    text-decoration: none;
+  }
+  nav{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+  }
+  
+  .anhtrangchu>img{
+    width: 50%;
+    height: 400px;
+    float: center;
+    margin-left: 290px;
+    padding: 50px;
+    
+  }
+  .anhtrangchu h2{
+    text-align: center;
+    color: rgb(64, 64, 136);
+
+  }
+  .anhtrangchu  p{
+    text-align: center;
+    
+
+  }
+  button {
+    background-color: #7066c9; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 20px;
+  }
+  .button{
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  
+  .hmenu{
+    list-style: none;
+    
+  }
+  .hmenu>li{
+    display: inline-block;
+   margin-top: 10px;
+    position: relative;
+    
+  }
+  .hmenu>li>a{
+    text-decoration: none;
+    font-size: 12pt;
+    padding: 20px;
+    
+    
+    
+  }
+  .hmenu>li:hover .smenu{
+    display: block;
+  }
+  .smenu{
+    
+    list-style: none;
+    position: absolute;
+    top: 30px;
+    left: -10px;
+    width: 200px;
+    height: 150px;
+    padding: 10px;
+    margin: 10px;
+    background-color: darkseagreen;
+    display: none;
+    
+  }
+  .smenu>li{
+    display: block;
+    height: 10px;
+    padding: 10px;
+    
+
+  }
+  .smenu>li>a{
+    text-decoration: none;
+    color: #666;
+    
+  }
+  .smenu>li:hover a{
+    display: block;
+    height: 30px;
+    background-color: rgb(167, 167, 102);
+    
+  }
+  .logo{
+    float: right;
+  }
+  .hethong{
+    width: 20%;
+    height: 100px;
+    float: left; 
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-align: justify; 
+}
+.hotro{
+width: 20%;
+height: 200px;
+padding: 5px 10px;
+text-align: justify; 
+}    
+
+.footer{
+  width: 100%;
+  height: 210px;
+  justify-content: space-around;
+  display: flex;
+  margin-top: 50px;
+  background-color: blanchedalmond;
+  
+}
+.hethong>p{
+    padding: 10px;
+    float: left;
+   padding-top: 10px;
+   
+    
+}
+.hoidap>p{
+    padding: 10px;
+    float: left;
+    padding-top: 5px;
+}
+.huongvi{
+  padding: 5px;
+  float: left;
+  padding-top: 5px;
+}
+
+h1{
+    font-size: 40px;
+    padding: 20px;
+}
+h3{
+    font-weight: 100;
+    padding: 20px;
+}
+h4{
+  color: rgb(147, 147, 194);
+  font-size: 20px;
+}
+.iconcuoi{
+    float: left;
+    padding: 0px 10px;
+}
+table{
+  
+  width: 100%;
+  height: 200px;
+ 
+  margin-top: 50px;
+}
+tr{
+ margin-top: 50px;
+ 
+}
+
+td>img{
+  
+  width: 250px;
+  height: 300px;
+  padding-left: 20px;
+  padding-right: 10px;
+  
+  
+}
+td>a{
+  text-decoration: none;
+  font-size: 26px ;
+}
+.noidung{
+  font-size: 19px;
+  text-decoration: none;
+  
+  
+}
+
+td>img{
+  width: 350px;
+  height: 250px;
+  margin-top: 20px;
+  
+}
+
+.gioithieu{
+  text-align: center;
+
+}
+.gioithieu>h2{
+  margin-top: 20px;
+  color: rgb(173, 115, 39);
+}
+.gioithieu>p{
+  font-size: 20px;
+  margin-top: 10px;
+}
+.gioithieu>a{
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(177, 42, 19);
+    margin-top: 20px;
+}
